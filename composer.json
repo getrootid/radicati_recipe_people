@@ -1,0 +1,15 @@
+{
+  "name": "getrootid/radicati-recipe-people",
+  "description": "Settings for managing a person listing on a Radicati website.",
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Jason Mickela"
+    }
+  ],
+  "require": {
+    "drupal/paragraphs": "*",
+    "drupal/field_token_value": "*"
+  }
+}

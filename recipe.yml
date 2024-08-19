@@ -1,0 +1,11 @@
+name: 'Radicati People'
+description: 'Settings for managing a person listing on a Radicati website.'
+type: 'Content'
+install:
+  - paragraphs
+  - field
+  - field_ui
+  - text
+  - link
+  - telephone
+  - field_token_value
