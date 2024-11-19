@@ -1,0 +1,24 @@
+uuid: d835965f-7b5b-4e0d-980c-8476d16eab9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.people_listing
+    - field.storage.block_content.field_component_sub_title_long
+    - filter.format.basic_html
+  module:
+    - text
+id: block_content.people_listing.field_component_sub_title_long
+field_name: field_component_sub_title_long
+entity_type: block_content
+bundle: people_listing
+label: Sub-Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

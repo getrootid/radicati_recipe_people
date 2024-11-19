@@ -17,10 +17,12 @@ third_party_settings:
     type_description: ''
     existing_nodes_link_text: 'View People'
     type_weight: 5
+_core:
+  default_config_hash: m8T5cgZNGlh7NwWLwVjtPiA52kbD9JX7oeHAu53YIeA
 name: Person
 type: person
 description: 'A page containing information about a person. This can be a member of the staff or board, a volunteer, or anyone else!'
-help: ''
+help: null
 new_revision: true
 preview_mode: 1
 display_submitted: true

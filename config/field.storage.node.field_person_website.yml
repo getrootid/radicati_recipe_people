@@ -5,6 +5,8 @@ dependencies:
   module:
     - link
     - node
+_core:
+  default_config_hash: Dqa_tjye9Nt7a_1EdGkEygkK9gTi5HnkRp8-FzcHWaY
 id: node.field_person_website
 field_name: field_person_website
 entity_type: node

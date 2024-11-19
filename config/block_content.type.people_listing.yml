@@ -2,6 +2,8 @@ uuid: 7ba6ab07-0087-48d0-9ca6-d10c3ccca9d5
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: ESYHULcHUZUncOgs1U2wLC2N8Tmz_3k_ldXjUMdsXiE
 id: people_listing
 label: 'People Listing'
 revision: 0

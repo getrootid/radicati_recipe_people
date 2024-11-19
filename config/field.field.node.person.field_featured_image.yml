@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_featured_image
     - media.type.image
     - node.type.person
+_core:
+  default_config_hash: J0VsLzvblEvZuHUZLcmyG8xQO6iIIM9GtFzkbBI6e0o
 id: node.person.field_featured_image
 field_name: field_featured_image
 entity_type: node

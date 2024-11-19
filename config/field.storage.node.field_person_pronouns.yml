@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: CaiIgv150L63gof6PI412-UB3VuMBAd-xMFVtQw2DuI
 id: node.field_person_pronouns
 field_name: field_person_pronouns
 entity_type: node

@@ -18,6 +18,8 @@ dependencies:
     - field_token_value
     - link
     - manage_display
+_core:
+  default_config_hash: 1Phz3a2DEQUgHTBGJuld6358DifEyOywRQ-7FqlXaWY
 id: node.person.default
 targetEntityType: node
 bundle: person

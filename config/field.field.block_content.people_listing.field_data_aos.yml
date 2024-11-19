@@ -1,0 +1,25 @@
+uuid: 56d8dc8c-cf2d-481d-a414-0b456ffbfceb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.people_listing
+    - field.storage.block_content.field_data_aos
+id: block_content.people_listing.field_data_aos
+field_name: field_data_aos
+entity_type: block_content
+bundle: people_listing
+label: Animation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_7
+      arguments: {  }
+field_type: entity_reference

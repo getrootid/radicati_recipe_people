@@ -4,24 +4,52 @@ status: true
 dependencies:
   config:
     - block_content.type.people_listing
-    - field.field.block_content.people_listing.field_component_sub_title
+    - field.field.block_content.people_listing.field_component_sub_title_long
     - field.field.block_content.people_listing.field_component_title
+    - field.field.block_content.people_listing.field_data_aos
     - field.field.block_content.people_listing.field_people_listing_details
     - field.field.block_content.people_listing.field_people_listing_simple
     - field.field.block_content.people_listing.field_setting_alignment
   module:
+    - field_group
     - radicati_base
+    - text
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - field_data_aos
+        - field_setting_alignment
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 3
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        required_fields: true
+_core:
+  default_config_hash: W9ZMArgxzk4CdScW-KNaDN9Zrj_n3Q334srLa5YbDO0
 id: block_content.people_listing.default
 targetEntityType: block_content
 bundle: people_listing
 mode: default
 content:
-  field_component_sub_title:
-    type: string_textfield
+  field_component_sub_title_long:
+    type: text_textarea
     weight: 2
     region: content
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
   field_component_title:
@@ -32,17 +60,13 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_people_listing_details:
-    type: entity_reference_autocomplete
-    weight: 4
+  field_data_aos:
+    type: options_select
+    weight: 5
     region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
-  field_people_listing_simple:
+  field_people_listing_details:
     type: entity_reference_autocomplete
     weight: 5
     region: content
@@ -52,9 +76,19 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_people_listing_simple:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_setting_alignment:
     type: taxonomy_icon_widget
-    weight: 3
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }

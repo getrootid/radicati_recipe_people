@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.people_listing
     - field.storage.block_content.field_component_title
+_core:
+  default_config_hash: h5s_vzAG37MVpBpgZNL9itAfn2PcHTCl548bhAqI1nc
 id: block_content.people_listing.field_component_title
 field_name: field_component_title
 entity_type: block_content

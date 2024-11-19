@@ -21,6 +21,8 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+_core:
+  default_config_hash: iCZN7ZlE0Nxg350yLiuh5XWbG5HMBvEXAmjJWmrQgEU
 id: node.person.simple_listing
 targetEntityType: node
 bundle: person

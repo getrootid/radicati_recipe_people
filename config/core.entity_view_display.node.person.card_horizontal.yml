@@ -22,6 +22,8 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+_core:
+  default_config_hash: wh20oBZdq5jtiAaflf7g2pYNi6i4WJJxBn5hnapoYQg
 id: node.person.card_horizontal
 targetEntityType: node
 bundle: person

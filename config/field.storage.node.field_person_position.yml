@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: FPMJIPqgxSrlVpXO5ml1ff88yJlzHmXcYXpUSJcAhLw
 id: node.field_person_position
 field_name: field_person_position
 entity_type: node

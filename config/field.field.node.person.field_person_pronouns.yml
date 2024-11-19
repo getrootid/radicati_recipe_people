@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.node.field_person_pronouns
     - node.type.person
+_core:
+  default_config_hash: '-Q2e5secQp8vBHWa9aq0O9jsAIU8ZG9OYrYCMEdt_kk'
 id: node.person.field_person_pronouns
 field_name: field_person_pronouns
 entity_type: node

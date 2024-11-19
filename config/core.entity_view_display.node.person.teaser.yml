@@ -17,6 +17,8 @@ dependencies:
     - node.type.person
   module:
     - manage_display
+_core:
+  default_config_hash: 3EdA09h2_BcjT7KYgBorltEl7e8q_6bcMppT1NJqYlw
 id: node.person.teaser
 targetEntityType: node
 bundle: person

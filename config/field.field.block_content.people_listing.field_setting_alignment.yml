@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_setting_alignment
   content:
     - 'taxonomy_term:settings:b4835892-194b-40f9-b6d0-558a5e7656c7'
+_core:
+  default_config_hash: 5xDMDX4cWNFmYnsnHbIzRWcyWLBqwszzFxK4tTCgUCU
 id: block_content.people_listing.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content
