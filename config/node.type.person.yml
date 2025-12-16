@@ -18,7 +18,7 @@ third_party_settings:
     existing_nodes_link_text: 'View People'
     type_weight: 5
 _core:
-  default_config_hash: m8T5cgZNGlh7NwWLwVjtPiA52kbD9JX7oeHAu53YIeA
+  default_config_hash: jD1HWgzfwakuQ28L6-vpFgXxkZM8fQiF1gMrX3HmKH4
 name: Person
 type: person
 description: 'A page containing information about a person. This can be a member of the staff or board, a volunteer, or anyone else!'

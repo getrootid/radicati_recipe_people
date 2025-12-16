@@ -34,8 +34,8 @@ third_party_settings:
           layout_classes: ''
           layout_width: layout-width--full
           layout_inner_width: layout-inner-width--normal
-          layout_background: setting-background--dark
           has_grid_gaps: 1
+          layout_background: setting-background--dark
           context_mapping: {  }
         components:
           52ea6d5b-5c51-452e-98b0-ce1899363587:
@@ -62,9 +62,9 @@ third_party_settings:
           layout_classes: ''
           layout_width: layout-width--normal
           layout_inner_width: layout-inner-width--normal
-          layout_background: setting-background--none
           has_grid_gaps: 1
           is_full_width: false
+          layout_background: setting-background--none
           context_mapping: {  }
           layout_type: left_sidebar
         components:
@@ -186,7 +186,7 @@ third_party_settings:
             additional: {  }
         third_party_settings: {  }
 _core:
-  default_config_hash: rQq96WM7akX_z5Q1fv5DIwH-ohOkKF89ZclzhJ6y8Nw
+  default_config_hash: Q4ZV9XiwrOzua4lZN4Wmtw70FyJH34AHpsmC-EzeUqA
 id: node.person.full
 targetEntityType: node
 bundle: person

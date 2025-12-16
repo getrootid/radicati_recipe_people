@@ -4,9 +4,9 @@ status: true
 dependencies:
   config:
     - block_content.type.people_listing
+    - field.field.block_content.people_listing.field_component_sub_title
     - field.field.block_content.people_listing.field_component_sub_title_long
     - field.field.block_content.people_listing.field_component_title
-    - field.field.block_content.people_listing.field_data_aos
     - field.field.block_content.people_listing.field_people_listing_details
     - field.field.block_content.people_listing.field_people_listing_simple
     - field.field.block_content.people_listing.field_setting_alignment
@@ -18,7 +18,6 @@ third_party_settings:
   field_group:
     group_settings:
       children:
-        - field_data_aos
         - field_setting_alignment
       label: Settings
       region: content
@@ -38,7 +37,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: W9ZMArgxzk4CdScW-KNaDN9Zrj_n3Q334srLa5YbDO0
+  default_config_hash: idfQTzaKn-H-Ue02mDzODh8K2JY0yg1SlKANULGhUbU
 id: block_content.people_listing.default
 targetEntityType: block_content
 bundle: people_listing
@@ -59,12 +58,6 @@ content:
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  field_data_aos:
-    type: options_select
-    weight: 5
-    region: content
-    settings: {  }
     third_party_settings: {  }
   field_people_listing_details:
     type: entity_reference_autocomplete
@@ -100,4 +93,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_component_sub_title: true

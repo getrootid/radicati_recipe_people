@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_summary
     - node.type.person
 _core:
-  default_config_hash: f4DWf_Olf7vu2bDBJZgYQbcpBbXEAzeJFckeBWIOODE
+  default_config_hash: zv_aIgkPHoztsDYqQbJ98VIijFCiWNV_1vjvXGWrQ4Q
 id: node.person.field_summary
 field_name: field_summary
 entity_type: node

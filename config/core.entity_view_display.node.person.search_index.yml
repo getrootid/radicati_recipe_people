@@ -23,7 +23,7 @@ third_party_settings:
     enabled: false
     allow_custom: false
 _core:
-  default_config_hash: 2zZDRkeZE7oV0QrqNJ1jfZk2Tr9lQyCFX8ed3TlExog
+  default_config_hash: oTKc10eYfzDpyBh0WglCayriVvcmKSq2DsqE3Nro0Io
 id: node.person.search_index
 targetEntityType: node
 bundle: person

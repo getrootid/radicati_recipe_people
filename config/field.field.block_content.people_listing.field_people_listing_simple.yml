@@ -7,7 +7,7 @@ dependencies:
     - field.storage.block_content.field_people_listing_simple
     - node.type.person
 _core:
-  default_config_hash: sHIJgH4gHep9grqqV53LLiSRaAeblfseXDmSBV2czj4
+  default_config_hash: fQJv1B_JKist51e4wXYcwwoOBQNHlOYwEA574SL1vfY
 id: block_content.people_listing.field_people_listing_simple
 field_name: field_people_listing_simple
 entity_type: block_content

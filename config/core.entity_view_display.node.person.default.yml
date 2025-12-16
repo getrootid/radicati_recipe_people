@@ -19,7 +19,7 @@ dependencies:
     - link
     - manage_display
 _core:
-  default_config_hash: 1Phz3a2DEQUgHTBGJuld6358DifEyOywRQ-7FqlXaWY
+  default_config_hash: KorfqtfXSP6yUQtAr-7uytiLFexgL4myPo3APgNE95Q
 id: node.person.default
 targetEntityType: node
 bundle: person

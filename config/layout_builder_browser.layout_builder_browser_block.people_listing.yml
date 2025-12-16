@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: soQozT0-Ns4onpdq7M6_62BV_OmbCoYtyiOQPvNptLQ
+  default_config_hash: 1XxAZIZ3HO8sNUGl_9YKhe0ZX-BRcMxqzOjjk0fakCM
 id: people_listing
 block_id: 'inline_block:people_listing'
 category: search_listing
 label: 'People Listing'
+weight: -100
 image_path: ''
 image_alt: ''
-weight: -100

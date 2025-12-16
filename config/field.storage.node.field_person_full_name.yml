@@ -6,7 +6,7 @@ dependencies:
     - field_token_value
     - node
 _core:
-  default_config_hash: yRrDykcmYs45IAqdjOPNBSRWh8iswEGqFqy7ttfuPVY
+  default_config_hash: F55W6V0TyFPpG0RztjdJY102Ol4hQbVsasjZzPZXqnE
 id: node.field_person_full_name
 field_name: field_person_full_name
 entity_type: node

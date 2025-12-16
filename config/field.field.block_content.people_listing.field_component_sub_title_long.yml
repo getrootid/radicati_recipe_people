@@ -8,6 +8,8 @@ dependencies:
     - filter.format.basic_html
   module:
     - text
+_core:
+  default_config_hash: RW4SEA7H1RZpKPRMg92CsYjqZfozjM8KmawysyAq3Zw
 id: block_content.people_listing.field_component_sub_title_long
 field_name: field_component_sub_title_long
 entity_type: block_content

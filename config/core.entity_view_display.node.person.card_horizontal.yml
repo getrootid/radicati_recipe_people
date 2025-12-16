@@ -23,7 +23,7 @@ third_party_settings:
     enabled: false
     allow_custom: false
 _core:
-  default_config_hash: wh20oBZdq5jtiAaflf7g2pYNi6i4WJJxBn5hnapoYQg
+  default_config_hash: oMdI0WRhSJNHCkQtPe2iIBVkKoTdRmZ9xw-zKyyJ_jI
 id: node.person.card_horizontal
 targetEntityType: node
 bundle: person

@@ -76,7 +76,7 @@ third_party_settings:
         description: ''
         required_fields: true
 _core:
-  default_config_hash: y6frhQiXxnIr5VumoMGM05crdQl3C9PMeJ6Y_L6o7aY
+  default_config_hash: 5gf2rceqJ_XoisIrI5yxWne7nvOYDIMMU3ynW2rz9vE
 id: node.person.default
 targetEntityType: node
 bundle: person

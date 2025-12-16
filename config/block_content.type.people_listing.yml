@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: ESYHULcHUZUncOgs1U2wLC2N8Tmz_3k_ldXjUMdsXiE
+  default_config_hash: mehAnSXoyBV1RYORrKbWBwyDYbEY_8KE3HUKrhMsNyY
 id: people_listing
 label: 'People Listing'
 revision: 0

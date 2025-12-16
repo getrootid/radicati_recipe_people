@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - node
 _core:
-  default_config_hash: jyrcTVF8vNnEr-pVkHJCvlT9BiLo6071NakC5TqeCeQ
+  default_config_hash: xn25UelBP-Aw3DP2q9IPhBu20YSRjyvcfL3D8TCBlCQ
 id: block_content.field_people_listing_details
 field_name: field_people_listing_details
 entity_type: block_content

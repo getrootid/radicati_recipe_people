@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_person_first_name
     - node.type.person
 _core:
-  default_config_hash: 2U7ak3C-HzlVrAwlQNtoZ2635hxmPBjwqMjToV4Cxf8
+  default_config_hash: LN8Bf5sK55u5Nw7QIWwBIbFZ8oCYJPEIECTgYC6vS_s
 id: node.person.field_person_first_name
 field_name: field_person_first_name
 entity_type: node
