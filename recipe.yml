@@ -1,6 +1,10 @@
 name: 'Radicati People'
 description: 'Settings for managing a person listing on a Radicati website.'
 type: 'Content'
+recipes:
+  - radicati-recipe-media
+  - radicati-recipe-content-base
+  - radicati-recipe-layout-builder
 install:
   - paragraphs
   - field
