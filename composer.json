@@ -9,6 +9,9 @@
     }
   ],
   "require": {
+    "getrootid/radicati-recipe-content-base": "^2",
+    "getrootid/radicati-recipe-media": "^2",
+    "getrootid/radicati-recipe-layout-builder": "^2",
     "drupal/paragraphs": "*",
     "drupal/field_token_value": "*"
   }
